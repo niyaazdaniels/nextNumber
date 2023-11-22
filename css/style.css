@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: whitesmoke;
+}
+.container {
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(pink,purple);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+button {
+    padding: 5px;
+    border-radius: 10px;
+    width: 30%;
+}
+input {
+    padding: 5px;
+}
